@@ -130,7 +130,13 @@ aside {
 
 .trending-header-image {
   border-radius: 12px;
+  overflow: hidden;
+  width: 79.5px;
+  height: 79.1px;
+  display: flex;
   object-fit: cover;
+  align-items: center;
+  justify-content: center;
 }
 
 .trending-header-content {
