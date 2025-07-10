@@ -687,6 +687,9 @@ main:focus {
 
 .post-profile-name {
   cursor: pointer;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 700;
 }
 .post-profile-name:hover {
   text-decoration: underline;

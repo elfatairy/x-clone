@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"
-    />
     <meta name="mobile-web-app-capable" content="no" />
     <meta name="apple-mobile-web-app-title" content="Twitter" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -30,9 +26,9 @@
         <div class="header-nav-container">
           <nav aria-label="Primary navigation">
             <ul role="menubar">
-              <li>
+              <li role="none">
                 <h1 aria-label="X Icon">
-                  <a href="/home" class="navlink logo">
+                  <a href="/home" class="navlink logo" aria-label="Home">
                     <svg
                       fill="var(--main-color)"
                       width="50.4"
@@ -244,7 +240,7 @@
         </button>
       </header>
 
-      <main aria-focusable="true" tabindex="0" id="main-content">
+      <main tabindex="0" id="main-content">
         <div class="main-header">
           <div class="main-header-left">
             <img
@@ -451,7 +447,7 @@
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">Lisan al Gaib</h3>
+                  <strong class="post-profile-name">Lisan al Gaib</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -600,7 +596,7 @@
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">Mindful Maven</h3>
+                  <strong class="post-profile-name">Mindful Maven</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -759,7 +755,7 @@
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">Lisan al Gaib</h3>
+                  <strong class="post-profile-name">Lisan al Gaib</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -910,7 +906,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">Rhys</h3>
+                  <strong class="post-profile-name">Rhys</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -934,7 +930,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                   <time datetime="2025-07-04 10:58 AM" class="post-profile-time">2h</time>
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="1-explain-this-post" class="post-top-button post-top-button-grok">
+                  <button aria-labelledby="2-explain-this-post" class="post-top-button post-top-button-grok">
                     <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
                       <g>
                         <path
@@ -942,7 +938,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         ></path>
                       </g>
                     </svg>
-                    <span id="1-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="2-explain-this-post" class="post-top-button-text">Explain this post</span>
                   </button>
                   <button aria-labelledby="1-more" class="post-top-button">
                     <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
@@ -1069,7 +1065,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">Ashutosh Maheshwari</h3>
+                  <strong class="post-profile-name">Ashutosh Maheshwari</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -1093,7 +1089,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                   <time datetime="2025-07-04 10:58 AM" class="post-profile-time">9h</time>
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="1-explain-this-post" class="post-top-button post-top-button-grok">
+                  <button aria-labelledby="3-explain-this-post" class="post-top-button post-top-button-grok">
                     <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
                       <g>
                         <path
@@ -1101,7 +1097,7 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         ></path>
                       </g>
                     </svg>
-                    <span id="1-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="3-explain-this-post" class="post-top-button-text">Explain this post</span>
                   </button>
                   <button aria-labelledby="1-more" class="post-top-button">
                     <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
@@ -1223,7 +1219,7 @@ But what happens when you need stronger guarantees?
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
-                  <h3 class="post-profile-name">FLIP</h3>
+                  <strong class="post-profile-name">FLIP</strong>
                   <div class="post-profile-icon-container">
                     <svg
                       class="post-profile-verified-icon"
@@ -1561,7 +1557,7 @@ But what happens when you need stronger guarantees?
 
     <nav class="bottom-nav" aria-label="Bottom Navigation">
       <ul role="menubar" class="bottom-nav-list">
-        <li role="none" class="bottom-nav-item">
+        <li role="none" class="bottom-nav-item" role="menuitem" aria-current="page">
           <a href="#" role="menuitem" aria-current="page">
             <svg
               fill="var(--main-color)"
@@ -1578,7 +1574,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li role="none" class="bottom-nav-item">
+        <li role="none" class="bottom-nav-item" role="menuitem" >
           <a href="#" role="menuitem">
             <svg
               fill="var(--main-color)"
@@ -1595,7 +1591,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li role="none" class="bottom-nav-item">
+        <li role="none" class="bottom-nav-item" role="menuitem" >
           <a href="#" role="menuitem">
             <svg
               fill="var(--main-color)"
@@ -1612,7 +1608,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li role="none" class="bottom-nav-item">
+        <li role="none" class="bottom-nav-item" role="menuitem" >
           <a href="#" role="menuitem">
             <svg
               fill="var(--main-color)"
@@ -1629,7 +1625,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li role="none" class="bottom-nav-item">
+        <li role="none" class="bottom-nav-item" role="menuitem" >
           <a href="#" role="menuitem">
             <svg
               fill="var(--main-color)"
@@ -1646,7 +1642,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li role="none" class="bottom-nav-item" >
+        <li role="none" class="bottom-nav-item" role="menuitem" >
           <a href="#" role="menuitem">
             <svg
               fill="var(--main-color)"
@@ -1666,7 +1662,7 @@ But what happens when you need stronger guarantees?
       </ul>
     </nav>
     
-    <button class="grok-button">
+    <button class="grok-button" aria-label="Ask Grok">
       <svg width="32" height="32" fill="#fff" viewBox="0 0 33 32" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-mabqd8 r-1yvhtrz"><g><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg>
     </button>
 
@@ -1675,10 +1671,10 @@ But what happens when you need stronger guarantees?
       <div class="messages-header">
         <h2 class="messages-title">Messages</h2>
         <div class="messages-buttons">
-          <button class="messages-button">
+          <button class="messages-button" aria-label="New message">
             <svg width="20" height="20" fill="rgb(239, 243, 244)" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" style="color: rgb(239, 243, 244);"><g><path d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5V12h-2v-1.537l-8 3.635-8-3.635V18.5c0 .276.224.5.5.5H13v2H4.498c-1.381 0-2.5-1.119-2.5-2.5v-13zm2 2.766l8 3.635 8-3.635V5.5c0-.276-.224-.5-.5-.5h-15c-.276 0-.5.224-.5.5v2.766zM19 18v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"></path></g></svg>
           </button>
-          <button class="messages-button">
+          <button class="messages-button" aria-label="Show Chats">
             <svg width="20" height="20" fill="rgb(239, 243, 244)" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" style="color: rgb(239, 243, 244);"><g><path d="M12 2.59l9.46 9.45-1.42 1.42L12 5.41l-8.04 8.05-1.42-1.42L12 2.59zm0 7l9.46 9.45-1.42 1.42L12 12.41l-8.04 8.05-1.42-1.42L12 9.59z"></path></g></svg>
           </button>
         </div>
