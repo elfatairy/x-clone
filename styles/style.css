@@ -141,6 +141,10 @@ header {
   flex: 1;
 }
 
+.main-logo {
+  font-size: 32px;
+}
+
 .skiplink {
   position: fixed;
   top: 0;
