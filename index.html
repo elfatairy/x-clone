@@ -6,7 +6,10 @@
     <meta name="mobile-web-app-capable" content="no" />
     <meta name="apple-mobile-web-app-title" content="Twitter" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-    <meta name="description" content="An accessible, responsive, pixel-perfect clone of X, the social media platform." />
+    <meta
+      name="description"
+      content="An accessible, responsive, pixel-perfect clone of X, the social media platform."
+    />
     <link rel="shortcut icon" href="./assets/images/twitter.3.ico" />
     <meta name="theme-color" content="#000000" />
     <link
@@ -34,9 +37,25 @@
         --color: rgb(15, 20, 25);
       }
     </style>
-    <link rel="stylesheet" href="./styles/header.css" media="screen and (min-width: 500px)" />
-    <link rel="stylesheet" href="./styles/aside.css" media="screen and (min-width: 988px)" />
+    <link
+      rel="stylesheet"
+      href="./styles/header.css"
+      media="screen and (min-width: 500px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/aside.css"
+      media="screen and (min-width: 988px)"
+    />
     <link rel="stylesheet" href="./styles/style.css" />
+
+    <meta content="X (formerly Twitter)" property="og:site_name" />
+    <meta
+      content="https://abs.twimg.com/responsive-web/client-web/icon-ios.77d25eba.png"
+      property="og:image"
+      data-rh="true"
+    />
+    <meta content="Home / X" property="og:title" data-rh="true" />
   </head>
   <body>
     <div class="container">
@@ -67,7 +86,12 @@
                 </h1>
               </li>
               <li role="menuitem">
-                <a href="#" role="menuitem" aria-current="page" class="navlink current">
+                <a
+                  href="#"
+                  role="menuitem"
+                  aria-current="page"
+                  class="navlink current"
+                >
                   <svg
                     fill="var(--main-color)"
                     width="26.25"
@@ -232,7 +256,22 @@
           </nav>
           <button class="header-post-button">
             <span class="header-post-button-text">Post</span>
-            <svg class="header-post-button-icon" width="24" height="24" fill="rgb(15, 20, 25)" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1472mwg r-lrsllp" style="color: rgb(15, 20, 25);"><g><path d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z"></path></g></svg>
+            <svg
+              class="header-post-button-icon"
+              width="24"
+              height="24"
+              fill="rgb(15, 20, 25)"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1472mwg r-lrsllp"
+              style="color: rgb(15, 20, 25)"
+            >
+              <g>
+                <path
+                  d="M23 3c-6.62-.1-10.38 2.421-13.05 6.03C7.29 12.61 6 17.331 6 22h2c0-1.007.07-2.012.19-3H12c4.1 0 7.48-3.082 7.94-7.054C22.79 10.147 23.17 6.359 23 3zm-7 8h-1.5v2H16c.63-.016 1.2-.08 1.72-.188C16.95 15.24 14.68 17 12 17H8.55c.57-2.512 1.57-4.851 3-6.78 2.16-2.912 5.29-4.911 9.45-5.187C20.95 8.079 19.9 11 16 11zM4 9V6H1V4h3V1h2v3h3v2H6v3H4z"
+                ></path>
+              </g>
+            </svg>
           </button>
         </div>
 
@@ -249,7 +288,13 @@
             <span class="profile-username">@omar_elfat76510</span>
           </div>
           <div class="profile-dropdown">
-            <svg width="18.75" height="18.75" fill="var(--main-color)" viewBox="0 0 24 24" aria-hidden="true">
+            <svg
+              width="18.75"
+              height="18.75"
+              fill="var(--main-color)"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
               <g>
                 <path
                   d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -273,7 +318,7 @@
               aria-label="Profile Picture"
             />
           </div>
-          
+
           <div class="main-header-middle">
             <a href="/home" class="navlink logo" aria-label="Home">
               <svg
@@ -296,14 +341,14 @@
             <button class="main-header-button">Get Premium</button>
           </div>
         </div>
-        
+
         <div class="main-nav">
-            <button class="main-nav-button">
-              <div class="main-nav-button-text">For you</div>
-            </button>
-            <button class="main-nav-button active">
-              <div class="main-nav-button-text">Following</div>
-            </button>
+          <button class="main-nav-button">
+            <div class="main-nav-button-text">For you</div>
+          </button>
+          <button class="main-nav-button active">
+            <div class="main-nav-button-text">Following</div>
+          </button>
         </div>
 
         <section class="compose-box">
@@ -317,11 +362,20 @@
             aria-label="Profile Picture"
           />
           <div class="compose-box-right">
-            <textarea placeholder="What's happening?" name="post-content" class="compose-box-textarea" rows="1"></textarea>
+            <textarea
+              placeholder="What's happening?"
+              name="post-content"
+              class="compose-box-textarea"
+              rows="1"
+            ></textarea>
             <div class="compose-box-bottom">
               <ul class="compose-box-buttons">
                 <li class="compose-box-buttons-item">
-                  <button aria-label="Pick a Picture" class="compose-box-button" class="compose-box-button">
+                  <button
+                    aria-label="Pick a Picture"
+                    class="compose-box-button"
+                    class="compose-box-button"
+                  >
                     <svg
                       width="20"
                       height="20"
@@ -357,7 +411,10 @@
                   </button>
                 </li>
                 <li class="compose-box-buttons-item">
-                  <button aria-label="Enhance your post with Grok" class="compose-box-button">
+                  <button
+                    aria-label="Enhance your post with Grok"
+                    class="compose-box-button"
+                  >
                     <svg
                       width="20"
                       height="20"
@@ -371,10 +428,14 @@
                         ></path>
                       </g>
                     </svg>
-                    <span class="compose-box-button-alt">Enhance your post with Grok</span>
+                    <span class="compose-box-button-alt"
+                      >Enhance your post with Grok</span
+                    >
                   </button>
                 </li>
-                <li class="compose-box-buttons-item compose-box-buttons-item-poll">
+                <li
+                  class="compose-box-buttons-item compose-box-buttons-item-poll"
+                >
                   <button aria-label="Create a Poll" class="compose-box-button">
                     <svg
                       width="20"
@@ -410,8 +471,13 @@
                     <span class="compose-box-button-alt">Emoji</span>
                   </button>
                 </li>
-                <li class="compose-box-buttons-item compose-box-buttons-item-schedule">
-                  <button aria-label="Schedule sending this post" class="compose-box-button">
+                <li
+                  class="compose-box-buttons-item compose-box-buttons-item-schedule"
+                >
+                  <button
+                    aria-label="Schedule sending this post"
+                    class="compose-box-button"
+                  >
                     <svg
                       width="20"
                       height="20"
@@ -463,8 +529,14 @@
 
         <section>
           <h2 class="hidden">Posts</h2>
-          <article class="post" style="padding-top: 14px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic6.jpg" alt="Profile Picture" />
+          <article class="post" style="padding-top: 14px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic6.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -488,22 +560,43 @@
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@scaling01</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">1h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >1h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="1-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="1-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="1-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="1-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="1-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -514,13 +607,24 @@
                   </button>
                 </div>
               </div>
-              <p class="post-text"><span>Anyone else who *hates* Canvas from ChatGPT?</span></p>
+              <p class="post-text">
+                <span>Anyone else who *hates* Canvas from ChatGPT?</span>
+              </p>
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="1-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="1-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -529,13 +633,24 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text">8</span>
-                      <span id="1-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="1-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="1-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="1-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -544,13 +659,24 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="1-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="1-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="1-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="1-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -563,13 +689,24 @@
                           <span class="post-actions-button-text">13</span>
                         </span>
                       </span>
-                      <span id="1-like" class="post-actions-button-alt">Like</span>
+                      <span id="1-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="1-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="1-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -578,14 +715,25 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text">547</span>
-                      <span id="1-view" class="post-actions-button-alt">View</span>
+                      <span id="1-view" class="post-actions-button-alt"
+                        >View</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="1-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="1-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -593,11 +741,19 @@
                         </g>
                       </svg>
                     </span>
-                    <span id="1-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="1-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="1-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -605,15 +761,23 @@
                         </g>
                       </svg>
                     </span>
-                    <span id="1-share" class="post-actions-button-alt">Share</span>
+                    <span id="1-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="post" style="padding-top: 13px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic7.jpg" alt="Profile Picture" />
+          <article class="post" style="padding-top: 13px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic7.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -637,22 +801,43 @@
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@mindfulmaven_</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">2h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >2h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="2-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="2-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="2-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="2-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="2-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -666,20 +851,29 @@
               <p class="post-text"><span></span></p>
               <div class="post-image-container">
                 <!-- <div> -->
-                  <img
-                    class="post-image"
-                    height="100%"
-                    src="./assets/images/post4.jpeg"
-                    alt="Image"
-                  />
+                <img
+                  class="post-image"
+                  height="100%"
+                  src="./assets/images/post4.jpeg"
+                  alt="Image"
+                />
                 <!-- </div> -->
               </div>
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="2-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="2-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -688,13 +882,24 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="2-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="2-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="2-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="2-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -703,13 +908,24 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="2-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="2-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="2-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="2-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -722,13 +938,24 @@
                           <span class="post-actions-button-text">1</span>
                         </span>
                       </span>
-                      <span id="2-like" class="post-actions-button-alt">Like</span>
+                      <span id="2-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="2-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="2-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -737,14 +964,25 @@
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="2-view" class="post-actions-button-alt">View</span>
+                      <span id="2-view" class="post-actions-button-alt"
+                        >View</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="2-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="2-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -752,11 +990,19 @@
                         </g>
                       </svg>
                     </span>
-                    <span id="2-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="2-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="2-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -764,15 +1010,23 @@
                         </g>
                       </svg>
                     </span>
-                    <span id="2-share" class="post-actions-button-alt">Share</span>
+                    <span id="2-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
             </div>
           </article>
-          
-          <article class="post" style="padding-top: 14px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic6.jpg" alt="Profile Picture" />
+
+          <article class="post" style="padding-top: 14px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic6.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -796,22 +1050,43 @@
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@scaling01</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">1h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >1h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="3-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="3-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="3-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="3-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="3-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -822,15 +1097,29 @@
                   </button>
                 </div>
               </div>
-              <p class="post-text"><span>Just opened an energy drink to stay awake until 6am so I don't miss the Grok-4 release and the T1 vs GenG series.
-
-Will write some more code for my uni project on the side. I'm going to be giga-fried tomorrow.</span></p>
+              <p class="post-text">
+                <span
+                  >Just opened an energy drink to stay awake until 6am so I
+                  don't miss the Grok-4 release and the T1 vs GenG series. Will
+                  write some more code for my uni project on the side. I'm going
+                  to be giga-fried tomorrow.</span
+                >
+              </p>
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="3-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="3-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -839,13 +1128,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text">8</span>
-                      <span id="3-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="3-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="3-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="3-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -854,13 +1154,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="3-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="3-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="3-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="3-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -873,13 +1184,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                           <span class="post-actions-button-text">13</span>
                         </span>
                       </span>
-                      <span id="3-like" class="post-actions-button-alt">Like</span>
+                      <span id="3-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="3-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="3-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -888,14 +1210,25 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="3-view" class="post-actions-button-alt">Reply</span>
+                      <span id="3-view" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="3-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="3-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -903,11 +1236,19 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </g>
                       </svg>
                     </span>
-                    <span id="3-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="3-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="3-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -915,15 +1256,23 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </g>
                       </svg>
                     </span>
-                    <span id="3-share" class="post-actions-button-alt">Share</span>
+                    <span id="3-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="post" style="padding-top: 13px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic10.jpg" alt="Profile Picture" />
+          <article class="post" style="padding-top: 13px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic10.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -947,22 +1296,43 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@RhysSullivan</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">2h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >2h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="4-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="4-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="4-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="4-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="4-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -987,9 +1357,18 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="4-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="4-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -998,13 +1377,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="4-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="4-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="4-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="4-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -1013,13 +1403,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="4-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="4-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="4-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="4-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -1032,13 +1433,24 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                           <span class="post-actions-button-text">1</span>
                         </span>
                       </span>
-                      <span id="4-like" class="post-actions-button-alt">Like</span>
+                      <span id="4-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="4-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="4-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -1047,14 +1459,25 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="4-view" class="post-actions-button-alt">View</span>
+                      <span id="4-view" class="post-actions-button-alt"
+                        >View</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="4-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="4-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -1062,11 +1485,19 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </g>
                       </svg>
                     </span>
-                    <span id="4-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="4-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="4-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -1074,15 +1505,23 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                         </g>
                       </svg>
                     </span>
-                    <span id="4-share" class="post-actions-button-alt">Share</span>
+                    <span id="4-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
             </div>
           </article>
-          
-          <article class="post" style="padding-top: 14px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic11.jpg" alt="Profile Picture" />
+
+          <article class="post" style="padding-top: 14px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic11.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -1106,22 +1545,43 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@asmah2107</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">9h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >9h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="5-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="5-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="5-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="5-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="5-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1132,18 +1592,28 @@ Will write some more code for my uni project on the side. I'm going to be giga-f
                   </button>
                 </div>
               </div>
-              <p class="post-text"><span>Most of us work with `READ COMMITTED` as the default database isolation level. 
-
-It's a good baseline, preventing dirty reads. 
-                
-But what happens when you need stronger guarantees? 
-🧵</span></p>
+              <p class="post-text">
+                <span
+                  >Most of us work with `READ COMMITTED` as the default database
+                  isolation level. It's a good baseline, preventing dirty reads.
+                  But what happens when you need stronger guarantees? 🧵</span
+                >
+              </p>
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="5-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="5-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -1152,13 +1622,24 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text">8</span>
-                      <span id="5-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="5-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="5-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="5-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -1167,13 +1648,24 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="5-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="5-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="5-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="5-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -1186,13 +1678,24 @@ But what happens when you need stronger guarantees?
                           <span class="post-actions-button-text">13</span>
                         </span>
                       </span>
-                      <span id="5-like" class="post-actions-button-alt">Like</span>
+                      <span id="5-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="5-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="5-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -1201,14 +1704,25 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="5-view" class="post-actions-button-alt">View</span>
+                      <span id="5-view" class="post-actions-button-alt"
+                        >View</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="5-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="5-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -1216,11 +1730,19 @@ But what happens when you need stronger guarantees?
                         </g>
                       </svg>
                     </span>
-                    <span id="5-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="5-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="5-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -1228,15 +1750,23 @@ But what happens when you need stronger guarantees?
                         </g>
                       </svg>
                     </span>
-                    <span id="5-share" class="post-actions-button-alt">Share</span>
+                    <span id="5-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
             </div>
           </article>
 
-          <article class="post" style="padding-top: 13px;">
-            <img width="40" height="40" class="post-profile-pic" src="./assets/images/profile-pic12.jpg" alt="Profile Picture" />
+          <article class="post" style="padding-top: 13px">
+            <img
+              width="40"
+              height="40"
+              class="post-profile-pic"
+              src="./assets/images/profile-pic12.jpg"
+              alt="Profile Picture"
+            />
             <div class="post-content">
               <div class="post-top">
                 <div class="post-profile-info">
@@ -1260,22 +1790,43 @@ But what happens when you need stronger guarantees?
                     <!-- <img width="16" height="16" class="post-profile-icon" src="./assets/images/icon1.jpg" /> -->
                   </div>
                   <span class="post-profile-username">@FlipMediaProd</span>
-                  <span aria-hidden="true" class="post-profile-dot">&middot;</span>
-                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time">2h</time>
+                  <span aria-hidden="true" class="post-profile-dot"
+                    >&middot;</span
+                  >
+                  <time datetime="2025-07-04 10:58 AM" class="post-profile-time"
+                    >2h</time
+                  >
                 </div>
                 <div class="post-top-buttons">
-                  <button aria-labelledby="6-explain-this-post" class="post-top-button post-top-button-grok">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 33 32" aria-hidden="true">
+                  <button
+                    aria-labelledby="6-explain-this-post"
+                    class="post-top-button post-top-button-grok"
+                  >
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 33 32"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
                         ></path>
                       </g>
                     </svg>
-                    <span id="6-explain-this-post" class="post-top-button-text">Explain this post</span>
+                    <span id="6-explain-this-post" class="post-top-button-text"
+                      >Explain this post</span
+                    >
                   </button>
                   <button aria-labelledby="6-more" class="post-top-button">
-                    <svg width="18.75" height="18.75" fill="rgb(113, 118, 123)" viewBox="0 0 24 24" aria-hidden="true">
+                    <svg
+                      width="18.75"
+                      height="18.75"
+                      fill="rgb(113, 118, 123)"
+                      viewBox="0 0 24 24"
+                      aria-hidden="true"
+                    >
                       <g>
                         <path
                           d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1300,9 +1851,18 @@ But what happens when you need stronger guarantees?
               <div class="post-actions">
                 <ul class="post-actions-left">
                   <li class="post-actions-item">
-                    <button aria-labelledby="6-reply" class="post-actions-button">
+                    <button
+                      aria-labelledby="6-reply"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M1.751 10c0-4.42 3.584-8 8.005-8h4.366c4.49 0 8.129 3.64 8.129 8.13 0 2.96-1.607 5.68-4.196 7.11l-8.054 4.46v-3.69h-.067c-4.49.1-8.183-3.51-8.183-8.01zm8.005-6c-3.317 0-6.005 2.69-6.005 6 0 3.37 2.77 6.08 6.138 6.01l.351-.01h1.761v2.3l5.087-2.81c1.951-1.08 3.163-3.13 3.163-5.36 0-3.39-2.744-6.13-6.129-6.13H9.756z"
@@ -1311,13 +1871,24 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="6-reply" class="post-actions-button-alt">Reply</span>
+                      <span id="6-reply" class="post-actions-button-alt"
+                        >Reply</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="6-repost" class="post-actions-button">
+                    <button
+                      aria-labelledby="6-repost"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M4.5 3.88l4.432 4.14-1.364 1.46L5.5 7.55V16c0 1.1.896 2 2 2H13v2H7.5c-2.209 0-4-1.79-4-4V7.55L1.432 9.48.068 8.02 4.5 3.88zM16.5 6H11V4h5.5c2.209 0 4 1.79 4 4v8.45l2.068-1.93 1.364 1.46-4.432 4.14-4.432-4.14 1.364-1.46 2.068 1.93V8c0-1.1-.896-2-2-2z"
@@ -1326,13 +1897,24 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="6-repost" class="post-actions-button-alt">Repost</span>
+                      <span id="6-repost" class="post-actions-button-alt"
+                        >Repost</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="6-like" class="post-actions-button">
+                    <button
+                      aria-labelledby="6-like"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M16.697 5.5c-1.222-.06-2.679.51-3.89 2.16l-.805 1.09-.806-1.09C9.984 6.01 8.526 5.44 7.304 5.5c-1.243.07-2.349.78-2.91 1.91-.552 1.12-.633 2.78.479 4.82 1.074 1.97 3.257 4.27 7.129 6.61 3.87-2.34 6.052-4.64 7.126-6.61 1.111-2.04 1.03-3.7.477-4.82-.561-1.13-1.666-1.84-2.908-1.91zm4.187 7.69c-1.351 2.48-4.001 5.12-8.379 7.67l-.503.3-.504-.3c-4.379-2.55-7.029-5.19-8.382-7.67-1.36-2.5-1.41-4.86-.514-6.67.887-1.79 2.647-2.91 4.601-3.01 1.651-.09 3.368.56 4.798 2.01 1.429-1.45 3.146-2.1 4.796-2.01 1.954.1 3.714 1.22 4.601 3.01.896 1.81.846 4.17-.514 6.67z"
@@ -1345,13 +1927,24 @@ But what happens when you need stronger guarantees?
                           <span class="post-actions-button-text">1</span>
                         </span>
                       </span>
-                      <span id="6-like" class="post-actions-button-alt">Like</span>
+                      <span id="6-like" class="post-actions-button-alt"
+                        >Like</span
+                      >
                     </button>
                   </li>
                   <li class="post-actions-item">
-                    <button aria-labelledby="6-view" class="post-actions-button">
+                    <button
+                      aria-labelledby="6-view"
+                      class="post-actions-button"
+                    >
                       <span class="post-actions-button-icon">
-                        <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                        <svg
+                          width="18.75"
+                          height="18.75"
+                          fill="#71767B"
+                          viewBox="0 0 24 24"
+                          aria-hidden="true"
+                        >
                           <g>
                             <path
                               d="M8.75 21V3h2v18h-2zM18 21V8.5h2V21h-2zM4 21l.004-10h2L6 21H4zm9.248 0v-7h2v7h-2z"
@@ -1360,14 +1953,25 @@ But what happens when you need stronger guarantees?
                         </svg>
                       </span>
                       <span class="post-actions-button-text"></span>
-                      <span id="6-view" class="post-actions-button-alt">View</span>
+                      <span id="6-view" class="post-actions-button-alt"
+                        >View</span
+                      >
                     </button>
                   </li>
                 </ul>
                 <div class="post-actions-right">
-                  <button aria-labelledby="6-bookmark" class="post-actions-button post-actions-button-bookmark">
+                  <button
+                    aria-labelledby="6-bookmark"
+                    class="post-actions-button post-actions-button-bookmark"
+                  >
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M4 4.5C4 3.12 5.119 2 6.5 2h11C18.881 2 20 3.12 20 4.5v18.44l-8-5.71-8 5.71V4.5zM6.5 4c-.276 0-.5.22-.5.5v14.56l6-4.29 6 4.29V4.5c0-.28-.224-.5-.5-.5h-11z"
@@ -1375,11 +1979,19 @@ But what happens when you need stronger guarantees?
                         </g>
                       </svg>
                     </span>
-                    <span id="6-bookmark" class="post-actions-button-alt">Bookmark</span>
+                    <span id="6-bookmark" class="post-actions-button-alt"
+                      >Bookmark</span
+                    >
                   </button>
                   <button aria-labelledby="6-share" class="post-actions-button">
                     <span class="post-actions-button-icon">
-                      <svg width="18.75" height="18.75" fill="#71767B" viewBox="0 0 24 24" aria-hidden="true">
+                      <svg
+                        width="18.75"
+                        height="18.75"
+                        fill="#71767B"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
                         <g>
                           <path
                             d="M12 2.59l5.7 5.7-1.41 1.42L13 6.41V16h-2V6.41l-3.3 3.3-1.41-1.42L12 2.59zM21 15l-.02 3.51c0 1.38-1.12 2.49-2.5 2.49H5.5C4.11 21 3 19.88 3 18.5V15h2v3.5c0 .28.22.5.5.5h12.98c.28 0 .5-.22.5-.5L19 15h2z"
@@ -1387,7 +1999,9 @@ But what happens when you need stronger guarantees?
                         </g>
                       </svg>
                     </span>
-                    <span id="6-share" class="post-actions-button-alt">Share</span>
+                    <span id="6-share" class="post-actions-button-alt"
+                      >Share</span
+                    >
                   </button>
                 </div>
               </div>
@@ -1399,21 +2013,38 @@ But what happens when you need stronger guarantees?
       <aside tabindex="0" id="aside-content">
         <div class="search-form-container">
           <form role="search" class="search-form">
-            <svg width="16" height="16" fill="#71767b" viewBox="0 0 24 24" aria-hidden="true">
+            <svg
+              width="16"
+              height="16"
+              fill="#71767b"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
               <g>
                 <path
                   d="M10.25 3.75c-3.59 0-6.5 2.91-6.5 6.5s2.91 6.5 6.5 6.5c1.795 0 3.419-.726 4.596-1.904 1.178-1.177 1.904-2.801 1.904-4.596 0-3.59-2.91-6.5-6.5-6.5zm-8.5 6.5c0-4.694 3.806-8.5 8.5-8.5s8.5 3.806 8.5 8.5c0 1.986-.682 3.815-1.824 5.262l4.781 4.781-1.414 1.414-4.781-4.781c-1.447 1.142-3.276 1.824-5.262 1.824-4.694 0-8.5-3.806-8.5-8.5z"
                 ></path>
               </g>
             </svg>
-            <input type="search" aria-label="Search" name="search" class="search-input" placeholder="Search" />
+            <input
+              type="search"
+              aria-label="Search"
+              name="search"
+              class="search-input"
+              placeholder="Search"
+            />
           </form>
         </div>
 
         <div class="premium-link-container">
           <h2>Subscribe to Premium</h2>
-          <p class="premium-link-description">Subscribe to unlock new features and if eligible, receive a share of revenue.</p>
-          <a href="#" aria-label="Signup to Premium" class="premium-link">Subscribe</a>
+          <p class="premium-link-description">
+            Subscribe to unlock new features and if eligible, receive a share of
+            revenue.
+          </p>
+          <a href="#" aria-label="Signup to Premium" class="premium-link"
+            >Subscribe</a
+          >
         </div>
 
         <section class="aside-section">
@@ -1421,11 +2052,16 @@ But what happens when you need stronger guarantees?
           <ul class="trending-list">
             <li class="trending-header">
               <div class="trending-header-image">
-                <img height="79.5px" width="140px" src="./assets/images/nfl.jpeg" alt="Image" />
+                <img
+                  height="79.5px"
+                  width="140px"
+                  src="./assets/images/nfl.jpeg"
+                  alt="Image"
+                />
               </div>
               <div class="trending-header-content">
                 <h3 class="trending-header-title">NFL Top 100 Countdown</h3>
-                <div style="line-height: 16px;">
+                <div style="line-height: 16px">
                   <span class="trending-subtitle">LIVE</span>
                 </div>
               </div>
@@ -1435,7 +2071,14 @@ But what happens when you need stronger guarantees?
               <div class="trending-item-header">
                 <span class="trending-subtitle">Trending in Egypt</span>
                 <!-- <span class="trending-subtitle">Sports &middot; Trending</span> -->
-                <svg width="18.75" height="18.75" fill="#71767b" viewBox="0 0 24 24" aria-hidden="true" class="options-icon">
+                <svg
+                  width="18.75"
+                  height="18.75"
+                  fill="#71767b"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="options-icon"
+                >
                   <g>
                     <path
                       d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1443,7 +2086,11 @@ But what happens when you need stronger guarantees?
                   </g>
                 </svg>
               </div>
-              <h3 class="trending-item-title" data-lang="ar" style="padding-top: 0.5px">
+              <h3
+                class="trending-item-title"
+                data-lang="ar"
+                style="padding-top: 0.5px"
+              >
                 محمد الباز
               </h3>
               <!-- <span class="trending-notes">270K posts</span> -->
@@ -1452,8 +2099,17 @@ But what happens when you need stronger guarantees?
             <li class="trending-item">
               <div class="trending-item-header">
                 <!-- <span class="trending-subtitle">Trending in Egypt</span> -->
-                <span class="trending-subtitle">Politics &middot; Trending</span>
-                <svg width="18.75" height="18.75" fill="#71767b" viewBox="0 0 24 24" aria-hidden="true" class="options-icon">
+                <span class="trending-subtitle"
+                  >Politics &middot; Trending</span
+                >
+                <svg
+                  width="18.75"
+                  height="18.75"
+                  fill="#71767b"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="options-icon"
+                >
                   <g>
                     <path
                       d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1461,7 +2117,11 @@ But what happens when you need stronger guarantees?
                   </g>
                 </svg>
               </div>
-              <h3 class="trending-item-title" data-lang="en" style="margin-top: -0.5px">
+              <h3
+                class="trending-item-title"
+                data-lang="en"
+                style="margin-top: -0.5px"
+              >
                 Jeffrey Epstein
               </h3>
               <span class="trending-notes">270K posts</span>
@@ -1471,7 +2131,14 @@ But what happens when you need stronger guarantees?
               <div class="trending-item-header">
                 <span class="trending-subtitle">Trending in Egypt</span>
                 <!-- <span class="trending-subtitle">Trending</span> -->
-                <svg width="18.75" height="18.75" fill="#71767b" viewBox="0 0 24 24" aria-hidden="true" class="options-icon">
+                <svg
+                  width="18.75"
+                  height="18.75"
+                  fill="#71767b"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="options-icon"
+                >
                   <g>
                     <path
                       d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1479,17 +2146,28 @@ But what happens when you need stronger guarantees?
                   </g>
                 </svg>
               </div>
-              <h3 class="trending-item-title" data-lang="ar" style="margin-top: 0.5px">
+              <h3
+                class="trending-item-title"
+                data-lang="ar"
+                style="margin-top: 0.5px"
+              >
                 البنك الاهلي
               </h3>
               <span class="trending-notes">1,099 posts</span>
             </li>
-            
+
             <li class="trending-item">
               <div class="trending-item-header">
                 <span class="trending-subtitle">Trending</span>
                 <!-- <span class="trending-subtitle">Business & finance &middot; Trending</span> -->
-                <svg width="18.75" height="18.75" fill="#71767b" viewBox="0 0 24 24" aria-hidden="true" class="options-icon">
+                <svg
+                  width="18.75"
+                  height="18.75"
+                  fill="#71767b"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  class="options-icon"
+                >
                   <g>
                     <path
                       d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
@@ -1497,7 +2175,11 @@ But what happens when you need stronger guarantees?
                   </g>
                 </svg>
               </div>
-              <h3 class="trending-item-title" data-lang="en" style="margin-top: -0.5px">
+              <h3
+                class="trending-item-title"
+                data-lang="en"
+                style="margin-top: -0.5px"
+              >
                 Noem
               </h3>
               <span class="trending-notes">110K posts</span>
@@ -1510,7 +2192,13 @@ But what happens when you need stronger guarantees?
           <h2 class="aside-section-title">Who to follow</h2>
           <ul class="who-to-follow-list">
             <li class="who-to-follow-item">
-              <img width="40" height="40" src="./assets/images/profile-pic13.png" alt="Profile Picture" class="who-to-follow-item-image" />
+              <img
+                width="40"
+                height="40"
+                src="./assets/images/profile-pic13.png"
+                alt="Profile Picture"
+                class="who-to-follow-item-image"
+              />
               <div class="who-to-follow-item-content">
                 <div class="who-to-follow-name">
                   <span>Astro</span>
@@ -1521,8 +2209,13 @@ But what happens when you need stronger guarantees?
                     viewBox="0 0 22 22"
                     aria-label="Verified account"
                     role="img"
-                  ><g><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"
-                        ></path></g></svg>
+                  >
+                    <g>
+                      <path
+                        d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"
+                      ></path>
+                    </g>
+                  </svg>
                 </div>
                 <span class="who-to-follow-username">@astrodotbuild</span>
               </div>
@@ -1530,12 +2223,16 @@ But what happens when you need stronger guarantees?
             </li>
 
             <li class="who-to-follow-item">
-              <img width="40" height="40" src="./assets/images/profile-pic14.jpg" alt="Profile Picture" class="who-to-follow-item-image" />
+              <img
+                width="40"
+                height="40"
+                src="./assets/images/profile-pic14.jpg"
+                alt="Profile Picture"
+                class="who-to-follow-item-image"
+              />
               <div class="who-to-follow-item-content">
                 <div class="who-to-follow-name">
-                  <span>
-                    Maurice Kleine 🍄
-                  </span>
+                  <span> Maurice Kleine 🍄 </span>
                 </div>
                 <span class="who-to-follow-username">@maurice_kleine</span>
               </div>
@@ -1543,12 +2240,16 @@ But what happens when you need stronger guarantees?
             </li>
 
             <li class="who-to-follow-item">
-              <img width="40" height="40" src="./assets/images/profile-pic15.jpg" alt="Profile Picture" class="who-to-follow-item-image" />
+              <img
+                width="40"
+                height="40"
+                src="./assets/images/profile-pic15.jpg"
+                alt="Profile Picture"
+                class="who-to-follow-item-image"
+              />
               <div class="who-to-follow-item-content">
                 <div class="who-to-follow-name">
-                  <span>
-                    MrBeast
-                  </span>
+                  <span> MrBeast </span>
                   <svg
                     width="18.75"
                     height="18.75"
@@ -1556,7 +2257,13 @@ But what happens when you need stronger guarantees?
                     viewBox="0 0 22 22"
                     aria-label="Verified account"
                     role="img"
-                  ><g><path d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"></path></g></svg>
+                  >
+                    <g>
+                      <path
+                        d="M20.396 11c-.018-.646-.215-1.275-.57-1.816-.354-.54-.852-.972-1.438-1.246.223-.607.27-1.264.14-1.897-.131-.634-.437-1.218-.882-1.687-.47-.445-1.053-.75-1.687-.882-.633-.13-1.29-.083-1.897.14-.273-.587-.704-1.086-1.245-1.44S11.647 1.62 11 1.604c-.646.017-1.273.213-1.813.568s-.969.854-1.24 1.44c-.608-.223-1.267-.272-1.902-.14-.635.13-1.22.436-1.69.882-.445.47-.749 1.055-.878 1.688-.13.633-.08 1.29.144 1.896-.587.274-1.087.705-1.443 1.245-.356.54-.555 1.17-.574 1.817.02.647.218 1.276.574 1.817.356.54.856.972 1.443 1.245-.224.606-.274 1.263-.144 1.896.13.634.433 1.218.877 1.688.47.443 1.054.747 1.687.878.633.132 1.29.084 1.897-.136.274.586.705 1.084 1.246 1.439.54.354 1.17.551 1.816.569.647-.016 1.276-.213 1.817-.567s.972-.854 1.245-1.44c.604.239 1.266.296 1.903.164.636-.132 1.22-.447 1.68-.907.46-.46.776-1.044.908-1.681s.075-1.299-.165-1.903c.586-.274 1.084-.705 1.439-1.246.354-.54.551-1.17.569-1.816zM9.662 14.85l-3.429-3.428 1.293-1.302 2.072 2.072 4.4-4.794 1.347 1.246z"
+                      ></path>
+                    </g>
+                  </svg>
                 </div>
                 <span class="who-to-follow-username">@MrBeast</span>
               </div>
@@ -1567,12 +2274,31 @@ But what happens when you need stronger guarantees?
         </section>
 
         <p class="footer-text">
-          <a href="#" class="footer-text-item">Terms of Service<span class="footer-text-separator"> |</span></a>
-          <a href="#" class="footer-text-item">Privacy Policy<span class="footer-text-separator"> |</span></a>
-          <a href="#" class="footer-text-item">Cookie Policy<span class="footer-text-separator"> |</span></a>
+          <a href="#" class="footer-text-item"
+            >Terms of Service<span class="footer-text-separator"> |</span></a
+          >
+          <a href="#" class="footer-text-item"
+            >Privacy Policy<span class="footer-text-separator"> |</span></a
+          >
+          <a href="#" class="footer-text-item"
+            >Cookie Policy<span class="footer-text-separator"> |</span></a
+          >
           <a href="#" class="footer-text-item">
             <span>More</span>
-            <svg class="footer-text-more-icon" width="13" height="13" fill="#666" viewBox="0 0 24 24" aria-hidden="true"><g><path d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"></path></g></svg>
+            <svg
+              class="footer-text-more-icon"
+              width="13"
+              height="13"
+              fill="#666"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <g>
+                <path
+                  d="M3 12c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2zm9 2c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm7 0c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2z"
+                ></path>
+              </g>
+            </svg>
           </a>
           <span class="footer-text-item">© 2025 X Corp.</span>
         </p>
@@ -1598,7 +2324,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li class="bottom-nav-item" role="menuitem" >
+        <li class="bottom-nav-item" role="menuitem">
           <a href="#" aria-label="Search">
             <svg
               fill="var(--main-color)"
@@ -1615,7 +2341,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li class="bottom-nav-item" role="menuitem" >
+        <li class="bottom-nav-item" role="menuitem">
           <a href="#" aria-label="Notifications">
             <svg
               fill="var(--main-color)"
@@ -1632,7 +2358,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li class="bottom-nav-item" role="menuitem" >
+        <li class="bottom-nav-item" role="menuitem">
           <a href="#" aria-label="Notifications">
             <svg
               fill="var(--main-color)"
@@ -1649,7 +2375,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li class="bottom-nav-item" role="menuitem" >
+        <li class="bottom-nav-item" role="menuitem">
           <a href="#" aria-label="Messages">
             <svg
               fill="var(--main-color)"
@@ -1666,7 +2392,7 @@ But what happens when you need stronger guarantees?
             </svg>
           </a>
         </li>
-        <li class="bottom-nav-item" role="menuitem" >
+        <li class="bottom-nav-item" role="menuitem">
           <a href="#" aria-label="Notifications">
             <svg
               fill="var(--main-color)"
@@ -1685,21 +2411,61 @@ But what happens when you need stronger guarantees?
         </li>
       </ul>
     </nav>
-    
-    <button class="grok-button" aria-label="Ask Grok">
-      <svg width="32" height="32" fill="#fff" viewBox="0 0 33 32" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-mabqd8 r-1yvhtrz"><g><path d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"></path></g></svg>
-    </button>
 
+    <button class="grok-button" aria-label="Ask Grok">
+      <svg
+        width="32"
+        height="32"
+        fill="#fff"
+        viewBox="0 0 33 32"
+        aria-hidden="true"
+        class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-mabqd8 r-1yvhtrz"
+      >
+        <g>
+          <path
+            d="M12.745 20.54l10.97-8.19c.539-.4 1.307-.244 1.564.38 1.349 3.288.746 7.241-1.938 9.955-2.683 2.714-6.417 3.31-9.83 1.954l-3.728 1.745c5.347 3.697 11.84 2.782 15.898-1.324 3.219-3.255 4.216-7.692 3.284-11.693l.008.009c-1.351-5.878.332-8.227 3.782-13.031L33 0l-4.54 4.59v-.014L12.743 20.544m-2.263 1.987c-3.837-3.707-3.175-9.446.1-12.755 2.42-2.449 6.388-3.448 9.852-1.979l3.72-1.737c-.67-.49-1.53-1.017-2.515-1.387-4.455-1.854-9.789-.931-13.41 2.728-3.483 3.523-4.579 8.94-2.697 13.561 1.405 3.454-.899 5.898-3.22 8.364C1.49 30.2.666 31.074 0 32l10.478-9.466"
+          ></path>
+        </g>
+      </svg>
+    </button>
 
     <div class="messages-container">
       <div class="messages-header">
         <h2 class="messages-title">Messages</h2>
         <div class="messages-buttons">
           <button class="messages-button" aria-label="New message">
-            <svg width="20" height="20" fill="rgb(239, 243, 244)" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" style="color: rgb(239, 243, 244);"><g><path d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5V12h-2v-1.537l-8 3.635-8-3.635V18.5c0 .276.224.5.5.5H13v2H4.498c-1.381 0-2.5-1.119-2.5-2.5v-13zm2 2.766l8 3.635 8-3.635V5.5c0-.276-.224-.5-.5-.5h-15c-.276 0-.5.224-.5.5v2.766zM19 18v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"></path></g></svg>
+            <svg
+              width="20"
+              height="20"
+              fill="rgb(239, 243, 244)"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+              style="color: rgb(239, 243, 244)"
+            >
+              <g>
+                <path
+                  d="M1.998 5.5c0-1.381 1.119-2.5 2.5-2.5h15c1.381 0 2.5 1.119 2.5 2.5V12h-2v-1.537l-8 3.635-8-3.635V18.5c0 .276.224.5.5.5H13v2H4.498c-1.381 0-2.5-1.119-2.5-2.5v-13zm2 2.766l8 3.635 8-3.635V5.5c0-.276-.224-.5-.5-.5h-15c-.276 0-.5.224-.5.5v2.766zM19 18v-3h2v3h3v2h-3v3h-2v-3h-3v-2h3z"
+                ></path>
+              </g>
+            </svg>
           </button>
           <button class="messages-button" aria-label="Show Chats">
-            <svg width="20" height="20" fill="rgb(239, 243, 244)" viewBox="0 0 24 24" aria-hidden="true" class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03" style="color: rgb(239, 243, 244);"><g><path d="M12 2.59l9.46 9.45-1.42 1.42L12 5.41l-8.04 8.05-1.42-1.42L12 2.59zm0 7l9.46 9.45-1.42 1.42L12 12.41l-8.04 8.05-1.42-1.42L12 9.59z"></path></g></svg>
+            <svg
+              width="20"
+              height="20"
+              fill="rgb(239, 243, 244)"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+              class="r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-z80fyv r-19wmn03"
+              style="color: rgb(239, 243, 244)"
+            >
+              <g>
+                <path
+                  d="M12 2.59l9.46 9.45-1.42 1.42L12 5.41l-8.04 8.05-1.42-1.42L12 2.59zm0 7l9.46 9.45-1.42 1.42L12 12.41l-8.04 8.05-1.42-1.42L12 9.59z"
+                ></path>
+              </g>
+            </svg>
           </button>
         </div>
       </div>
